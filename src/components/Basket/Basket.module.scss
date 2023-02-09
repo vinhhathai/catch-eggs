@@ -1,0 +1,34 @@
+.basket-line {
+    height: 15%;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    bottom: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.basket-block {
+    background-color: transparent;
+    height: 125%;
+    width: 14%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.basket-object{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.basket-get-egg {
+    position: absolute;
+    background-color: transparent;
+    width: 54%;
+    height: 8%;
+    left: 50%;
+    bottom: 25%;
+    transform: translateX(-50%);
+}

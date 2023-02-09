@@ -1,0 +1,54 @@
+.wrapper {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   top: 47%;
+}
+.game-over-text {
+  font-size: 72px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff4136;
+  text-shadow: 2px 2px #333;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.back-btn {
+    background-color: #faba39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    min-width: 120px;
+
+&:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+&:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 741px) and (min-width: 665px) {
+    /* phones */
+    .wrapper {
+        top: 46%;
+    }
+    
+}

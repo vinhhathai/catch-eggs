@@ -1,0 +1,80 @@
+@import url('../../node_modules/normalize.css/normalize.css');
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    background-color: aqua;
+    height: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    display: block;
+}
+//mobile and tablet
+@media (max-width: 1023px){
+    .wrapper {
+        height: 358px;
+    }
+}
+
+   @media only screen and (max-width: 896px) and (min-width: 414px) {
+    /* phones */
+    .wrapper {
+        height: 417px;
+    }
+    
+}
+@media only screen and (max-width: 844px) and (min-width: 390px) {
+    /* phones */
+    .wrapper {
+        height: 389px;
+    }
+    
+}
+
+@media only screen and (max-width: 852px) and (min-width: 393px) {
+    /* phones */
+    .wrapper {
+        height: 394px;
+    }
+    
+}
+@media only screen and (max-width: 668px) and (min-width: 665px) {
+    /* phones */
+    .wrapper {
+        height: 360px;
+    }
+    
+}
+@media only screen and (max-width: 741px) and (min-width: 665px) {
+    /* phones */
+    .wrapper {
+        height: 360px;
+    }
+    
+}
+@media only screen and (max-width: 916px) and (min-width: 742px) {
+    /* phones */
+    .wrapper {
+       height: 412px;
+    }
+   
+    
+}
+@media only screen and (max-width: 655px) {
+    /* phones */
+    .wrapper {
+       height: 281px;
+    }
+}
+@media only screen and (max-width: 1601px) {
+    /* phones */
+    .wrapper {
+       height: 720px;
+    }
+   
+    
+}

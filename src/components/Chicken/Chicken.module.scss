@@ -1,0 +1,35 @@
+.chicken-block {
+    height: 20%;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    margin-top: 4%;
+    z-index: 1;
+}
+.chicken {
+    height: 100%;
+    object-fit: contain;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.egg-block {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+
+}
+.egg-object {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
